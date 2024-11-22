@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f7e8d7;
+}
+.container {
+    width: 50%;
+    height: auto;
+    margin: 50px auto;
+    padding: 30px;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.egg-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.head h1, p{
+    margin-bottom: 10px;
+}
+p{
+    font-size: 20px;
+    line-height: 1;
+}
+.Preparation{
+    background-color: rgb(253, 231, 231);
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.Preparation h3{
+    color: rgb(114, 53, 53);
+    margin-bottom: 10px;
+}
+.Preparation ul{
+    padding-left: 15px;
+    line-height: 1.5;
+}
+hr{
+    margin-bottom: 10px;
+}
+.Ingredients h2{
+    color: rgb(133, 86, 83);
+    margin-bottom: 10px;
+}
+.Ingredients ul{
+    padding-left: 15px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.Instructions h2{
+    color: rgb(133, 86, 83);
+    margin-bottom: 10px;
+}
+.Instructions ol{
+    padding-left: 15px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.nutrition h2{
+    color: rgb(133, 86, 83);
+    margin-bottom: 10px;  
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+table tr td:nth-child(2){
+    color: rgb(97, 53, 49);
+    font-weight: bold;
+}
